@@ -1,0 +1,361 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dip">
+    
+    <TextView
+        android:id="@+id/acce"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/acce_title" />
+    
+    <TableRow>    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_x"/>
+    	<TextView
+        	android:id="@+id/acce_1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_y"/>
+    	<TextView
+        	android:id="@+id/acce_0"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_z"/>
+    	<TextView
+        	android:id="@+id/acce_2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    
+    <TextView
+        android:id="@+id/gravity"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/gravity_title" />
+    
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_x"/>
+    	<TextView
+        	android:id="@+id/gravity_0"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_y"/>
+    	<TextView
+        	android:id="@+id/gravity_1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_z"/>
+    	<TextView
+        	android:id="@+id/gravity_2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    
+    <TextView
+        android:id="@+id/gyto"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/gyro_title" />
+    
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_x"/>
+    	<TextView
+        	android:id="@+id/gyro_0"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_y"/>
+    	<TextView
+        	android:id="@+id/gyro_1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_z"/>
+    	<TextView
+        	android:id="@+id/gyro_2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    
+    <TextView
+        android:id="@+id/linear_acce"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/linear_acce_title" />
+    
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_x"/>
+    	<TextView
+        	android:id="@+id/linear_acce_0"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_y"/>
+    	<TextView
+        	android:id="@+id/linear_acce_1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_z"/>
+    	<TextView
+        	android:id="@+id/linear_acce_2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+
+   <TextView
+        android:id="@+id/rot_vec"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/rot_vec_title" />
+    
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_x"/>
+    	<TextView
+        	android:id="@+id/rot_vec_0"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_y"/>
+    	<TextView
+        	android:id="@+id/rot_vec_1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_z"/>
+    	<TextView
+        	android:id="@+id/rot_vec_2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rot_vec_3"/>
+    	<TextView
+        	android:id="@+id/rot_vec_3"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    
+    <TextView
+        android:id="@+id/mag"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/mag_title" />
+    
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_x"/>
+    	<TextView
+        	android:id="@+id/mag_0"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_y"/>
+    	<TextView
+        	android:id="@+id/mag_1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/along_z"/>
+    	<TextView
+        	android:id="@+id/mag_2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TextView
+        android:id="@+id/orient"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/orient_title" />
+    
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/orient_0"/>
+    	<TextView
+        	android:id="@+id/orient_0"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/orient_1"/>
+    	<TextView
+        	android:id="@+id/orient_1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+    <TableRow >    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/orient_2"/>
+    	<TextView
+        	android:id="@+id/orient_2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginLeft="20dip"
+        	android:textStyle="bold"
+        	android:text="@string/default_value"/>
+    </TableRow>
+</TableLayout>
+</ScrollView>

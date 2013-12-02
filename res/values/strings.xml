@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SensorTest</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="default_value">Default Value</string>
+    
+	<!-- acceleration-->
+    <string name="acce_title">Force includes gravity [m/s2]</string>
+    
+    <!-- gravity -->
+    <string name="gravity_title">Force of gravity [m/s2]</string>
+ 	
+ 	<!-- gyroscope -->
+ 	<string name="gyro_title">Rate of rotation [rad/s]</string>
+
+ 	<!-- linear acceleration -->
+ 	<string name="linear_acce_title">Force excludes gravity [m/s2]</string>
+ 	
+ 	<!-- rotation vector -->
+ 	<string name="rot_vec_title">Rotation vector components [unitless]</string>
+ 	<string name="rot_vec_3">Scalar component of rotation vector</string>
+ 	
+ 	<!-- magnetic field -->
+ 	<string name="mag_title">Geomagnetic field strength [uT]</string>
+ 	
+ 	<!-- orientation -->
+ 	<string name="orient_title">Orientation of the device [Degrees]</string>
+ 	<string name="orient_0">Azimuth(around z-axis)</string>
+ 	<string name="orient_1">Pitch (around x-axis)</string>
+ 	<string name="orient_2">Roll (around y-axis)</string>
+ 
+ 	<!-- axis -->
+    <string name="along_x">Along x axis</string>
+    <string name="along_y">Along y axis</string>
+    <string name="along_z">Along z axis</string>
+
+</resources>
